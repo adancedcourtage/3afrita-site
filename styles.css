@@ -368,6 +368,14 @@ h1 {
   margin: 0 auto;
 }
 
+#collections,
+.product-dossier,
+#rituel,
+#campagne,
+#offre {
+  scroll-margin-top: 92px;
+}
+
 .collection-card {
   grid-column: span 3;
   position: relative;
