@@ -18,7 +18,7 @@ revealItems.forEach((item, index) => {
 });
 
 const heroImage = document.querySelector(".hero-media img");
-const cards = document.querySelectorAll(".collection-card, .gallery-item, .signature-card");
+const cards = document.querySelectorAll(".collection-card, .product-dossier, .gallery-item, .signature-card");
 
 window.addEventListener(
   "scroll",
