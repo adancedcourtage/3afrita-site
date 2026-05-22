@@ -1039,7 +1039,7 @@ details p {
     grid-auto-rows: minmax(260px, auto);
   }
 
-  .whatsapp-sticky { display: flex; }
+  .whatsapp-sticky { display: none; }
 }
 
 @media (max-width: 620px) {
@@ -1165,6 +1165,8 @@ details p {
     width: 42%;
     height: 14%;
   }
+
+  .whatsapp-sticky { display: flex; }
 
   .faq { padding-bottom: 104px; }
 }
